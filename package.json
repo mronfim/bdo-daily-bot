@@ -1,0 +1,14 @@
+{
+    "name": "bdo-daily-bot",
+    "version": "1.0.0",
+    "description": "Black Desert Online helper bot",
+    "main": "bot.js",
+    "author": "Matheus Ronfim",
+    "dependencies": {
+        "dateformat": "^3.0.3",
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "discord.js": "^12.2.0",
+        "printf": "^0.5.3",
+        "winston": "^3.2.1"
+    }
+}
