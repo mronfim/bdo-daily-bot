@@ -2,9 +2,10 @@ const utils = require("./utils.js");
 
 class Scheduler {
 
-    constructor(timeout) {
+    constructor(timeout, func) {
         this.timeout = timeout;
         this.running = false;
+        this.func = func;
     }
 
     start() {
@@ -16,8 +17,8 @@ class Scheduler {
         utils.log("Starting Scheduler.");
 
         this.running = true;
+        this.run();
         this.hInterval = setInterval(this.run.bind(this), this.timeout);
-        // this.run();
     }
 
     stop() {
@@ -32,7 +33,12 @@ class Scheduler {
     }
 
     run() {
-        utils.log("Scheduler run() method not implemented.", { logLevel: "warning" });
+        if (!this.func || typeof this.func !== "function") {
+            utils.log("Scheduler has no callback.", { logLevel: "warning" });
+            this.stop();
+        } else {
+            this.func();
+        }
     }
 
 }

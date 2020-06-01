@@ -1,0 +1,69 @@
+{
+    "spawnTimes": [
+        { "time": "00:00", "bosses": [[3], [4], [3], [4], [1], [9], [2]] },
+        { "time": "03:00", "bosses": [[2], [2], [ ], [2], [3], [1], [4]] },
+        { "time": "07:00", "bosses": [[2], [1], [3], [4], [4], [4], [1]] },
+        { "time": "10:00", "bosses": [[9], [4], [1], [1], [3], [1], [2]] },
+        { "time": "14:00", "bosses": [[4], [1], [4], [2], [1], [6, 7], [5]] },
+        { "time": "17:00", "bosses": [[1], [3], [9], [4], [2], [2, 3], [8]] },
+        { "time": "20:15", "bosses": [[2], [8], [2, 3], [8], [2, 4], [ ], [1, 2]] },
+        { "time": "21:15", "bosses": [[ ], [ ], [6, 7], [ ], [ ], [ ], [ ]] },
+        { "time": "22:15", "bosses": [[3], [2, 4], [1], [2, 3], [3], [1, 4], [3, 4]] }
+    ],
+    "info": {
+        "1": {
+            "id": 1,
+            "name": "Nouver",
+            "icon": "https://bdocodex.com/items/ui_artwork/ic_04920.png",
+            "map": "https://i.imgur.com/QZRNlSY.png"
+        },
+        "2": {
+            "id": 2,
+            "name": "Kzarka",
+            "icon": "https://bdocodex.com/items/ui_artwork/ic_04082.png",
+            "map": "https://i.imgur.com/dAjxXdD.jpg"
+        },
+        "3": {
+            "id": 3,
+            "name": "Karanda",
+            "icon": "https://bdocodex.com/items/ui_artwork/ic_04370.png",
+            "map": "https://i.imgur.com/5z593qk.jpg"
+        },
+        "4": {
+            "id": 4,
+            "name": "Kutum",
+            "icon": "https://bdocodex.com/items/ui_artwork/ic_04389.png",
+            "map": "https://i.imgur.com/GoQzw0w.png"
+        },
+        "5": {
+            "id": 5,
+            "name": "Vell",
+            "icon": "https://bdocodex.com/images/icon_vell.png",
+            "map": "https://i.imgur.com/9BGg9i0.png"
+        },
+        "6": {
+            "id": 6,
+            "name": "Muraka",
+            "icon": "https://bdocodex.com/items/ui_artwork/ic_05057.png",
+            "map": "https://i.imgur.com/zWnAJSz.jpg"
+        },
+        "7": {
+            "id": 7,
+            "name": "Quint",
+            "icon": "https://bdocodex.com/items/ui_artwork/ic_05056.png",
+            "map": "https://i.imgur.com/PJdWYdx.png"
+        },
+        "8": {
+            "id": 8,
+            "name": "Garmoth",
+            "icon": "https://bdocodex.com/images/icon_garmoth.png",
+            "map": "https://i.imgur.com/XiBf9vS.png"
+        },
+        "9": {
+            "id": 9,
+            "name": "Offin",
+            "icon": "https://bdocodex.com/items/ui_artwork/ic_05054.png",
+            "map": "https://i.imgur.com/3yShnXF.jpg"
+         }
+    }
+}
