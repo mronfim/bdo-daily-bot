@@ -9,7 +9,7 @@
         "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
         "discord.js": "^12.2.0",
         "dotenv": "^8.2.0",
-        "printf": "^0.5.3",
+        "printf": "^0.6.1",
         "timezone-js": "^0.4.13",
         "tzdata": "^1.0.19",
         "winston": "^3.2.1"
